@@ -6,7 +6,7 @@ include("config/config.php");
 $api_key="1a3a8858084e48b2b4017ce556697b02";
  
 //url api untuk ambil berita headline di Indonesia
-$url="https://newsapi.org/v2/top-headlines?country=us&apiKey=".$api_key;
+$url="https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=WRONG_KEY".$api_key;
  
 //menyimpan hasil dalam variabel
 $data=http_request_get($url);
